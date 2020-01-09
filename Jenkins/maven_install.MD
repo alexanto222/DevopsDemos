@@ -14,8 +14,8 @@ Download maven packages https://maven.apache.org/download.cgi onto Jenkins serve
   mkdir /opt/maven
   cd /opt/maven
   # downloading maven version 3.6.0
-  wget http://mirrors.fibergrid.in/apache/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.zip
-  unzip /opt/maven/apache-maven-3.6.0-bin.zip
+  wget http://mirrors.koehn.com/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
+  tar -xzvf apache-maven-3.6.3-bin.tar.gz
  ```
 	
 Setup M2_HOME and M2 paths in .bash_profile of user and add these to path variable
